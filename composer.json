@@ -1,0 +1,23 @@
+{
+  "name": "snicholson/request-logger",
+  "description": "A A hyper simple PHP request logger, which logs POST and GET requests into a text file",
+  "minimum-stability": "dev",
+  "license": "mit",
+  "authors": [
+    {
+      "name": "Sam Nicholson",
+      "email": "snicholson@workanyware.co.uk"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SNicholson\\RequestLogger\\" : "src/"
+    }
+  },
+  "require": {
+    "slim/slim": "^3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.8.*"
+  }
+}
